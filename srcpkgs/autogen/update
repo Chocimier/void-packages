@@ -1,0 +1,2 @@
+site="http://ftp.gnu.org/gnu/autogen/"
+pattern="rel\K[\d.]+"
