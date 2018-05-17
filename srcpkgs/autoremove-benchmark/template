@@ -1,0 +1,12 @@
+# Template file for 'autoremove-benchmark'
+pkgname=autoremove-benchmark
+version=1
+revision=1
+build_style=meta
+hostmakedepends="extra-cmake-modules"
+makedepends="knewstuff-devel kparts-devel krunner-devel libressl-devel phonon-devel plasma-framework-devel qt5-devel qt5-location-devel qt5-plugin-mysql qt5-plugin-odbc qt5-plugin-pgsql qt5-plugin-sqlite qt5-plugin-tds qt5-serialport-devel qt5-webkit-devel"
+maintainer="Piotr Wójcik <chocimier@tlen.pl>"
+homepage="https://github.com/voidlinux/xbps"
+license="GPL-3"
+short_desc="Benchmark for xbps-remove -R"
+
